@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joseph Hizon | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Hexagon Loader -->
+  <div id="loader">
+    <div class="hexagon"><span>H</span></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#experience" class="nav-link">Experience/Cert</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+      </ul>
+      <div class="theme-toggle">
+        <input type="checkbox" id="toggle-theme" />
+        <label for="toggle-theme" class="toggle-label">
+          <span class="toggle-ball"></span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section">
+    <div class="container">
+      <h1>Hello, I'm <span class="highlight">Joseph Hizon</span></h1>
+      <p>Computer Science Student & Aspiring Developer</p>
+      <a href="#experience" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-modern section">
+    <div class="about-container">
+      <div class="about-left scroll-reveal">
+        <img src="Profile.png" alt="Joseph Hizon" class="hero-profile" />
+      </div>
+      <div class="about-right scroll-reveal">
+        <h1 class="big-text">Hello, I'm Joseph</h1>
+        <p class="subtitle">I am a passionate developer, designer, and builder of meaningful digital experiences.</p>
+        <a href="#projects" class="about-btn">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience/Cert Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>📜 Certifications</h2>
+      <img src="Cert.jpg.png" alt="Certification" class="cert-img" />
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>🚧 Projects</h2>
+      <p>Coming soon...</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>📬 Contact Me</h2>
+      <p>Email: hizonjosephnathan@gmail.com</p>
+      <p>Phone: +63 948 804 9235</p>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section">
+    <div class="container">
+      <h2>📄 Resume</h2>
+      <p>Available upon request</p>
+    </div>
+  </section>
+
+  <!-- Background Floating Shapes -->
+  <ul class="background-shapes">
+    <li></li><li></li><li></li><li></li><li></li>
+    <li></li><li></li><li></li><li></li><li></li>
+  </ul>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
